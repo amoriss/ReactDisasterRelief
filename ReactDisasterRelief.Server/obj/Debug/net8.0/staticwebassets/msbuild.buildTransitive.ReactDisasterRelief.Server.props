@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ReactDisasterRelief.Server.props" />
+</Project>
