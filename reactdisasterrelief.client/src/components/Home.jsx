@@ -5,21 +5,23 @@ function Home() {
     return (
         <div className="home-container">
             <h1>Welcome to the Disaster Relief Application</h1>
+            <div className="image-container">
             <div className="image-item">
-                <img src={getHelpImage} alt="Get Help" />
-                
+                    <img src={getHelpImage} alt="Get Help" />
+                    <Link to="/get-help" className="home-button">Get Help</Link>
             </div>
-            <Link to="/get-help" className="home-button">Get Help</Link>
+      
             <div className="image-item">
-                <img src={getHelpImage} alt="Get Help" />
-
+                    <img src={getHelpImage} alt="Donate" />
+                    <Link to="/donate" className="home-button">Donate</Link>
             </div>
-            <Link to="/donate" className="home-button">Donate</Link>
+           
             <div className="image-item">
-                <img src={getHelpImage} alt="Get Help" />
-
+                    <img src={getHelpImage} alt="Volunteer" />
+                    <Link to="/volunteer" className="home-button">Volunteer</Link>
             </div>
-            <Link to="/volunteer" className="home-button">Volunteer</Link>
+               
+            </div>
         </div>
     );
 }
