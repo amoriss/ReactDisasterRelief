@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import GetHelp from './components/GetHelp';
+import Donate from './components/Donate';
+import Volunteer from './components/Volunteer';
 /*import { useEffect, useState } from 'react';*/
 import './App.css';
 
@@ -10,11 +12,13 @@ import './App.css';
 const App = () => {
     return (
         <Router>
-            <Navbar/>
-                <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/get-help" element={<GetHelp/>}/>
-                </Routes>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/get-help" element={<GetHelp />} />
+                <Route path="/donate" element={<Donate />} />
+                <Route path="/volunteer" element={<Volunteer />} />
+            </Routes>
         </Router>
     )
 }

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -11,6 +10,12 @@ const Navbar = () => {
                 </li>
                 <li style={styles.navItem}>
                     <Link to="/get-help" style={styles.navLink}>Get Help</Link>
+                </li>
+                <li style={styles.navItem}>
+                    <Link to="/donate" style={styles.navLink}>Donate</Link>
+                </li>
+                <li style={styles.navItem}>
+                    <Link to="/volunteer" style={styles.navLink}>Volunteer</Link>
                 </li>
             </ul>
         </nav>
