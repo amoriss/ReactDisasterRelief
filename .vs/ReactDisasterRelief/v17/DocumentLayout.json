@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\footer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -73,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\index.html",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\index.html",
               "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\index.html",
               "RelativeToolTip": "reactdisasterrelief.client\\index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-07T06:33:53.411Z",
               "EditorCaption": ""
@@ -99,20 +99,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Footer.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Footer.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Footer.jsx",
               "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Footer.jsx",
               "RelativeToolTip": "reactdisasterrelief.client\\src\\components\\Footer.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-10-07T05:46:51.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Navbar.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Navbar.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Navbar.jsx",
@@ -125,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Volunteer.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Donate.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Donate.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Donate.jsx",
@@ -151,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Home.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Home.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Home.css",
@@ -168,9 +168,9 @@
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\App.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\App.css",
-              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\App.css*",
-              "RelativeToolTip": "reactdisasterrelief.client\\src\\App.css*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\App.css",
+              "RelativeToolTip": "reactdisasterrelief.client\\src\\App.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-06T22:33:34.238Z",
               "EditorCaption": ""
