@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import getHelpImage from '../assets/truck-disaster-relief.jpg';
 function Home() {
+    console.log("Home component rendered");
     return (
         <div className="home-container">
             <h1>Welcome to the Disaster Relief Application</h1>
