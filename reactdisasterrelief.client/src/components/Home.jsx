@@ -17,7 +17,7 @@ function Home() {
             </div>
            
             <div className="image-item">
-                    <img src={getHelpImage} alt="Volunteer" />
+                    <img src={getHelpImage} alt="Get Help" />
                     <Link to="/volunteer" className="home-button">Volunteer</Link>
             </div>
                

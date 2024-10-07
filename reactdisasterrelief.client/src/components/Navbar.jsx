@@ -30,6 +30,10 @@ const styles = {
         padding: '10px 20px',
         backgroundColor: 'black',
         color: 'white',
+        width: '100%',
+        position: 'relative',
+        border: '1px solid red',
+        boxSizing: 'border-box',
     },
     title: {
         margin: 0,
@@ -39,6 +43,7 @@ const styles = {
         display: 'flex',
         margin: '0',
         padding: '0',
+        flexWrap: 'wrap',
     },
     navItem: {
         marginLeft: '20px',

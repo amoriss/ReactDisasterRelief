@@ -5,6 +5,7 @@ import Home from './components/Home';
 import GetHelp from './components/GetHelp';
 import Donate from './components/Donate';
 import Volunteer from './components/Volunteer';
+import Footer from './components/Footer';
 /*import { useEffect, useState } from 'react';*/
 import './App.css';
 
@@ -19,6 +20,7 @@ const App = () => {
                 <Route path="/donate" element={<Donate />} />
                 <Route path="/volunteer" element={<Volunteer />} />
             </Routes>
+            <Footer/>
         </Router>
     )
 }
