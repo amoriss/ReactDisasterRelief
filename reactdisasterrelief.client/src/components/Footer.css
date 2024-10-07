@@ -3,6 +3,20 @@ body {
 
 .footer-image {
     width: 3%;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    transition-duration: 0.3s;
+    /*trying to get icon to bounce*/
+
+}
+.footer-image:hover {
+    margin: .4em;
+    padding: 1em;
+    background: #e1e1e1;
+    color: darkgray;
+    -webkit-tap-highlight-color: rgb(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .footer-image-container {

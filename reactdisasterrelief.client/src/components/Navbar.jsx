@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 const Navbar = () => {
     return (
@@ -11,14 +12,23 @@ const Navbar = () => {
                 <li style={styles.navItem}>
                     <Link to="/get-help" style={styles.navLink}>Get Help</Link>
                 </li>
+
                 <li style={styles.navItem}>
-                    <Link to="/donate" style={styles.navLink}>Donate</Link>
+                    <div className="dropdown">
+                        <Link to="/donate" style={styles.navLink}>Donate &#9662;</Link>
+                        <div className="dropdown-content">
+                            <Link to="/donate">Money</Link>
+                            <Link to="/donate">Supplies</Link>
+                        </div>
+                    </div>
                 </li>
+
+
                 <li style={styles.navItem}>
                     <Link to="/volunteer" style={styles.navLink}>Volunteer</Link>
                 </li>
             </ul>
-        </nav>
+        </nav >
     );
 };
 
@@ -34,6 +44,7 @@ const styles = {
         position: 'relative',
         border: '1px solid red',
         boxSizing: 'border-box',
+        boxShadow: '0 2px 5px rgba(0,0,0, 0.2)',
     },
     title: {
         margin: 0,

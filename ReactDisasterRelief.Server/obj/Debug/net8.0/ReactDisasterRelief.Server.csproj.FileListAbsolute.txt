@@ -34,3 +34,4 @@ C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.pdb
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.genruntimeconfig.cache
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ref\ReactDisasterRelief.Server.dll
+C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.sourcelink.json
