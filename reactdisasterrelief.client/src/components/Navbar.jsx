@@ -137,7 +137,7 @@ const styles = {
         position: 'relative',
         border: '1px solid red',
         boxSizing: 'border-box',
-        boxShadow: '0 2px 5px rgba(0,0,0, 0.2)',
+        boxShadow: '0 2px 5px rgba(0,0,0, 0.53)',
         /*height: '60px',*/
     },
     title: {

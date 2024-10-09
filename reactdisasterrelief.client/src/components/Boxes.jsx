@@ -13,7 +13,11 @@ function Boxes() {
                 <Link to="/donate" className="box-link">Box 2 Link</Link>
             </div>
             <div className="box">
-                <Link to="/donate" className="box-link">Box 3 Link</Link>
+                <Link to="/donate" className="box-link">
+                    {/*<div className="box-title">Box 3</div>*/}
+                    {/*<p>Link</p>*/}
+                    <h2><em>Press</em> <strong>Releases</strong></h2>
+                </Link>
             </div>
             <div className="box">
                 <Link to="/donate" className="box-link">Box 4 Link</Link>
