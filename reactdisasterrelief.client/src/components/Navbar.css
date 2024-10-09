@@ -6,6 +6,7 @@ body {
     padding: 10px 15px;
     text-align: center;
     color: black;
+    font-size: 24px;
 }
 
 
@@ -22,7 +23,11 @@ body {
     z-index: 1;
 }*/
 
+a {
+    font-size: 20px;
+}
     .dropdown-content a {
+        font-size: 20px;
         float: none;
         padding: 12px 16px;
         display: block;

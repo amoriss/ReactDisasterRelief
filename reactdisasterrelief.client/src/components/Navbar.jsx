@@ -131,11 +131,11 @@ const styles = {
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '10px 20px',
-        backgroundColor: 'black',
+        backgroundColor: '#6D7275',
         color: 'white',
         width: '100%',
         position: 'relative',
-        border: '1px solid red',
+        /*border: '1px solid red',*/
         boxSizing: 'border-box',
         boxShadow: '0 2px 5px rgba(0,0,0, 0.53)',
         /*height: '60px',*/
