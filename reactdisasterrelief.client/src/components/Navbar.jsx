@@ -172,6 +172,7 @@ const styles = {
 
     dropdownContent: {
         position: 'absolute',
+        padding: '10px',
         backgroundColor: 'white',
         zIndex: 1,
         minWidth: '160px',
