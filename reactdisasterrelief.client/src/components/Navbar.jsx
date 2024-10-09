@@ -57,6 +57,7 @@ const Navbar = () => {
                     onMouseEnter={() => setDropdownOpen(true)} //open dropdown on hover
                     onMouseLeave={() => setDropdownOpen(false)} //close dropdown on hover
                 >
+                    <div style={styles.dropdownWrapper}>
                     <Link
                         to="/donate"
                         style={{
@@ -69,13 +70,17 @@ const Navbar = () => {
                     {/*dropdown content that appears when hovered*/}
                     {dropdownOpen && (
 
-                        <div className="dropdown-content" style={styles.dropdownContent}>
+                            <div className="dropdown-content"                              
+                                style={styles.dropdownContent}
+                                onMouseEnter={() => setDropdownOpen(true)}
+                                onMouseLeave={() => setDropdownOpen(false)}
+                            >
                             <Link to="/donate" style={styles.dropdownLink}>Money</Link>
                             <Link to="/donate" style={styles.dropdownLink}>Supplies</Link>
                         </div>
 
                     )}
-
+                    </div>
                 </li>
             </ul>
         </nav>
@@ -133,6 +138,7 @@ const styles = {
         border: '1px solid red',
         boxSizing: 'border-box',
         boxShadow: '0 2px 5px rgba(0,0,0, 0.2)',
+        /*height: '60px',*/
     },
     title: {
         margin: 0,
@@ -148,14 +154,20 @@ const styles = {
         marginLeft: '20px',
         position: 'relative',
     },
+    dropdownWrapper: {
+        position: 'relative',
+
+    },
     navLink: {
         color: 'white',
         textDecoration: 'none',
-        padding: '10px 15px',
+        padding: '15px 25px',
         transition: 'background-color 0.3s',
+        borderRadius: '15px',
     },
     navLinkHover: {
         backgroundColor: 'red',
+        borderRadius: '15px',
     },
 
     dropdownContent: {
@@ -164,15 +176,25 @@ const styles = {
         zIndex: 1,
         minWidth: '160px',
         boxShadow: '0 2px 5px rgba(0,0,0, 0.2)',
-
+        borderRadius: '15px',
+        top: 'calc(100% + 15px)',
+        left: '0',
+        //opacity: 1,
+        transition: 'opacity 0.3s ease',
+        //visibility: 'visible',
     },
 
     dropdownLink: {
         display: 'block',
-        padding: '12px 16px',
+        padding: '12px 20px',
         color: 'black',
         textDecoration: 'none',
         transition: 'background-color 0.3s, color 0.3s',
+        borderRadius: '15px',
+        '&:hover': {
+            backgroundColor: 'red',
+        },
+
     },
 };
 

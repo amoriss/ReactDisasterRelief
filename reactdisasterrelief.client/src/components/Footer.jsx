@@ -21,7 +21,7 @@ function Footer() {
             </div>
             <div className="footer-image">
                 <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
-                    <img src={tiktokIcon} alt="Tik Tok" />
+                    <img src={tiktokIcon} alt="TikTok" />
                 </a>
             </div>
             <div className="footer-image">
