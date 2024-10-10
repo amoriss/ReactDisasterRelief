@@ -1,15 +1,45 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-    const [hovered, setHovered] = useState(null); //state for hovered nav itme
+    const [hovered, setHovered] = useState(null); //state for hovered nav item
     const [dropdownOpen, setDropdownOpen] = useState(false); //state for dropdown visibility
+    const [isOpen, setIsOpen] = useState(false); //state for hamburger menu
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+
+    }, []);
 
     return (
         <nav style={styles.navbar}>
             <h1 style={styles.title}>Disaster Relief</h1>
-            <ul style={styles.navList}>
+            {isMobile && (
+
+                <div
+                    style={styles.hamburger}
+                    onClick={toggleMenu}
+                >
+
+                    <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
+                    <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
+                    <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
+
+                </div>
+            )}
+            <ul style={{ ...styles.navList, ...(isOpen ? styles.navListOpen : {}) }}>
                 <li
                     key="home"
                     style={styles.navItem}
@@ -25,7 +55,7 @@ const Navbar = () => {
 
 
                     >
-                    Home
+                        Home
                     </Link>
                 </li>
 
@@ -58,28 +88,28 @@ const Navbar = () => {
                     onMouseLeave={() => setDropdownOpen(false)} //close dropdown on hover
                 >
                     <div style={styles.dropdownWrapper}>
-                    <Link
-                        to="/donate"
-                        style={{
-                            ...styles.navLink,
-                            backgroundColor: dropdownOpen ? 'red' : 'transparent',
-                        }}
-                    >
-                        Donate &#9662;
-                    </Link>
-                    {/*dropdown content that appears when hovered*/}
-                    {dropdownOpen && (
+                        <Link
+                            to="/donate"
+                            style={{
+                                ...styles.navLink,
+                                backgroundColor: dropdownOpen ? 'red' : 'transparent',
+                            }}
+                        >
+                            Donate &#9662;
+                        </Link>
+                        {/*dropdown content that appears when hovered*/}
+                        {dropdownOpen && (
 
-                            <div className="dropdown-content"                              
+                            <div className="dropdown-content"
                                 style={styles.dropdownContent}
                                 onMouseEnter={() => setDropdownOpen(true)}
                                 onMouseLeave={() => setDropdownOpen(false)}
                             >
-                            <Link to="/donate" style={styles.dropdownLink}>Money</Link>
-                            <Link to="/donate" style={styles.dropdownLink}>Supplies</Link>
-                        </div>
+                                <Link to="/donate" style={styles.dropdownLink}>Money</Link>
+                                <Link to="/donate" style={styles.dropdownLink}>Supplies</Link>
+                            </div>
 
-                    )}
+                        )}
                     </div>
                 </li>
             </ul>
@@ -87,43 +117,6 @@ const Navbar = () => {
     );
 };
 
-
-
-
-
-
-
-
-//const Navbar = () => {
-//    return (
-//        <nav style={styles.navbar}>
-//            <h1 style={styles.title}>Disaster Relief</h1>
-//            <ul style={styles.navList}>
-//                <li style={styles.navItem}>
-//                    <Link to="/" style={styles.navLink}>Home</Link>
-//                </li>
-//                <li style={styles.navItem}>
-//                    <Link to="/get-help" style={styles.navLink}>Get Help</Link>
-//                </li>
-
-//                <li style={styles.navItem}>
-//                    <div className="dropdown">
-//                        <Link to="/donate" style={styles.navLink}>Donate &#9662;</Link>
-//                        <div className="dropdown-content">
-//                            <Link to="/donate">Money</Link>
-//                            <Link to="/donate">Supplies</Link>
-//                        </div>
-//                    </div>
-//                </li>
-
-
-//                <li style={styles.navItem}>
-//                    <Link to="/volunteer" style={styles.navLink}>Volunteer</Link>
-//                </li>
-//            </ul>
-//        </nav >
-//    );
-//};
 
 const styles = {
     navbar: {
@@ -149,6 +142,19 @@ const styles = {
         margin: '0',
         padding: '0',
         flexWrap: 'wrap',
+        /* transition: 'max-height 0.3s ease',*/
+    },
+
+    navListOpen: {
+        flexDirection: 'column',
+        position: 'absolute',
+        backgroundColor: '#6D7275',
+        top: '60px',
+        left: '0',
+        width: '100%',
+        maxHeight: '200px',
+        overflow: 'hidden',
+
     },
     navItem: {
         marginLeft: '20px',
@@ -196,6 +202,40 @@ const styles = {
             backgroundColor: 'red',
         },
 
+
+    },
+    hamburger: {
+        display: 'flex', //hidden on larger screens
+        flexDirection: 'column',
+        cursor: 'pointer',
+        border: '2px solid red',
+        position: 'relative',
+        width: '30px',
+        height: '30px',
+
+    },
+    line: {
+        width: '25px',
+        height: '3px',
+        backgroundColor: 'white',
+        margin: '4px 0',
+        transition: 'all 0.3s ease',
+    },
+
+    lineOpen: {
+        backgroundColor: 'red',
+    },
+    '@media (max-width: 768px)': {
+        navList: {
+            display: 'none',
+        },
+        hamburger: {
+            display: 'flex',
+        },
+        navListOpen: {
+            display: 'flex',
+            flexDirection: 'column',
+        }
     },
 };
 
