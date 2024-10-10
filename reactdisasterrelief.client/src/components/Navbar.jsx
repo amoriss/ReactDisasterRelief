@@ -23,43 +23,29 @@ const Navbar = () => {
 
     }, []);
 
-    return (
-        <nav style={styles.navbar}>
-            <h1 style={styles.title}>Disaster Relief</h1>
-            {isMobile && (
+    const renderNavItems = () => (
+        <>
+            <li
+                key="home"
+                style={styles.navItem}
+                onMouseEnter={() => setHovered(0)}
+                onMouseLeave={() => setHovered(null)}
+            >
+                <Link
+                    to="/"
+                    style={{
+                        ...styles.navLink,
+                        backgroundColor: hovered === 0 ? 'red' : 'transparent',
+                    }}
 
-                <div
-                    style={styles.hamburger}
-                    onClick={toggleMenu}
+
                 >
+                    Home
+                </Link>
+            </li>
 
-                    <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
-                    <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
-                    <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
-
-                </div>
-            )}
-            <ul style={{ ...styles.navList, ...(isOpen ? styles.navListOpen : {}) }}>
-                <li
-                    key="home"
-                    style={styles.navItem}
-                    onMouseEnter={() => setHovered(0)}
-                    onMouseLeave={() => setHovered(null)}
-                >
-                    <Link
-                        to="/"
-                        style={{
-                            ...styles.navLink,
-                            backgroundColor: hovered === 0 ? 'red' : 'transparent',
-                        }}
-
-
-                    >
-                        Home
-                    </Link>
-                </li>
-
-                {['Get Help', 'Volunteer'].map((item, index) => (
+            {
+                ['Get Help', 'Volunteer'].map((item, index) => (
 
                     <li
                         key={index + 1}
@@ -79,40 +65,81 @@ const Navbar = () => {
                             {item}
                         </Link>
                     </li>
-                ))}
+                ))
+            }
 
-                {/*Drop down for the Donate Option*/}
-                <li
-                    style={styles.navItem}
-                    onMouseEnter={() => setDropdownOpen(true)} //open dropdown on hover
-                    onMouseLeave={() => setDropdownOpen(false)} //close dropdown on hover
-                >
-                    <div style={styles.dropdownWrapper}>
-                        <Link
-                            to="/donate"
-                            style={{
-                                ...styles.navLink,
-                                backgroundColor: dropdownOpen ? 'red' : 'transparent',
-                            }}
+            {/*Drop down for the Donate Option*/}
+            <li
+                style={styles.navItem}
+                onMouseEnter={() => setDropdownOpen(true)} //open dropdown on hover
+                onMouseLeave={() => setDropdownOpen(false)} //close dropdown on hover
+            >
+                <div style={styles.dropdownWrapper}>
+                    <Link
+                        to="/donate"
+                        style={{
+                            ...styles.navLink,
+                            backgroundColor: dropdownOpen ? 'red' : 'transparent',
+                        }}
+                    >
+                        Donate &#9662;
+                    </Link>
+                    {/*dropdown content that appears when hovered*/}
+                    {dropdownOpen && (
+
+                        <div className="dropdown-content"
+                            style={styles.dropdownContent}
+                            onMouseEnter={() => setDropdownOpen(true)}
+                            onMouseLeave={() => setDropdownOpen(false)}
                         >
-                            Donate &#9662;
-                        </Link>
-                        {/*dropdown content that appears when hovered*/}
-                        {dropdownOpen && (
+                            <Link to="/donate" style={styles.dropdownLink}>Money</Link>
+                            <Link to="/donate" style={styles.dropdownLink}>Supplies</Link>
+                        </div>
 
-                            <div className="dropdown-content"
-                                style={styles.dropdownContent}
-                                onMouseEnter={() => setDropdownOpen(true)}
-                                onMouseLeave={() => setDropdownOpen(false)}
-                            >
-                                <Link to="/donate" style={styles.dropdownLink}>Money</Link>
-                                <Link to="/donate" style={styles.dropdownLink}>Supplies</Link>
-                            </div>
+                    )}
+                </div>
+            </li>
+        </>
 
-                        )}
+    );
+
+    return (
+        <nav style={styles.navbar}>
+            <h1 style={styles.title}>Disaster Relief</h1>
+
+            {isMobile ? (
+                <>
+                    <div
+                        style={styles.hamburger}
+                        onClick={toggleMenu}
+                    >
+
+                        <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
+                        <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
+                        <div style={isOpen ? { ...styles.line, ...styles.lineOpen } : styles.line}></div>
+
                     </div>
-                </li>
-            </ul>
+
+                    {isOpen && (
+
+                        <ul style={styles.navListOpen}>
+                            {renderNavItems()}
+
+                        </ul>
+                    )}
+           
+
+                </>
+            ) : (
+                <ul style={styles.navList}>
+
+                    {renderNavItems()}
+
+                </ul>
+
+
+            )}
+
         </nav>
     );
 };
