@@ -14,15 +14,19 @@ import './App.css';
 const App = () => {
     return (
         <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/get-help" element={<GetHelp />} />
-                <Route path="/donate" element={<Donate />} />
-                <Route path="/volunteer" element={<Volunteer />} />
-            </Routes>
-           {/* <Boxes/>*/}
-            <Footer/>
+            <div className="app-wrapper">
+                <Navbar />
+                <main className="content">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/get-help" element={<GetHelp />} />
+                        <Route path="/donate" element={<Donate />} />
+                        <Route path="/volunteer" element={<Volunteer />} />
+                    </Routes>
+                </main>
+                {/* <Boxes/>*/}
+                <Footer />
+            </div>
         </Router>
     )
 }

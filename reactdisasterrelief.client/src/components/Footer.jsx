@@ -54,6 +54,7 @@ function Footer() {
                 <p>Sign-Up Email Here</p>
                 <p>Input box goes here</p>
             </div>
+            <div className="block-address">Copyright 2024</div>
         </footer>
     );
 }

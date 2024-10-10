@@ -1,8 +1,10 @@
 body {
+    
 }
 
 footer {
     box-shadow: 0 2px 5px rgba(0,0,0, 0.53);
+    display: flex;
     background-color: #6D7275;
     box-sizing: border-box;
     display: flex;
@@ -51,4 +53,8 @@ h3 {
     gap: 10px;
    /* padding: 32px;*/
     background-color: #6D7275;
+}
+
+.block-address {
+    clear: both;
 }

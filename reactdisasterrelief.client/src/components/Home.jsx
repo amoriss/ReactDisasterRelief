@@ -13,17 +13,17 @@ function Home() {
                 <div className="image-container">
                     <div className="image-item">
                         <img src={getHelpImage} alt="Get Help" className="home-img" />
-                        <Link to="/get-help" className="home-button">Get Help</Link>
+                      {/*  <Link to="/get-help" className="home-button">Get Help</Link>*/}
                     </div>
 
                     <div className="image-item">
                         <img src={getHelpImage} alt="Donate" className="home-img" />
-                        <Link to="/donate" className="home-button">Donate</Link>
+                      {/*  <Link to="/donate" className="home-button">Donate</Link>*/}
                     </div>
 
                     <div className="image-item">
                         <img src={getHelpImage} alt="Get Help" className="home-img" />
-                        <Link to="/volunteer" className="home-button">Volunteer</Link>
+                        {/*<Link to="/volunteer" className="home-button">Volunteer</Link>*/}
                     </div>
 
                 </div>

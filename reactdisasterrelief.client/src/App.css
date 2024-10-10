@@ -21,3 +21,23 @@ th, td {
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.content {
+    flex: 1;
+}
+
+/*footer {
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.53);
+    display: flex;
+    background-color: #6D7275;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+}*/
