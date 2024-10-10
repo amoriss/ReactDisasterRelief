@@ -1,27 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import useWindowSize from '../hooks/useWindowSize';
 import './Navbar.css';
 
 const Navbar = () => {
     const [hovered, setHovered] = useState(null); //state for hovered nav item
     const [dropdownOpen, setDropdownOpen] = useState(false); //state for dropdown visibility
     const [isOpen, setIsOpen] = useState(false); //state for hamburger menu
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    //const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+    const { width } = useWindowSize();
+    const isMobile = width <= 768;
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
-        };
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
+    //useEffect(() => {
+    //    const handleResize = () => {
+    //        setIsMobile(window.innerWidth <= 768);
+    //    };
+    //    window.addEventListener('resize', handleResize);
+    //    return () => {
+    //        window.removeEventListener('resize', handleResize);
+    //    };
 
-    }, []);
+    //}, []);
 
     const renderNavItems = () => (
         <>
@@ -44,8 +48,7 @@ const Navbar = () => {
                 </Link>
             </li>
 
-            {
-                ['Get Help', 'Volunteer'].map((item, index) => (
+            {['Get Help', 'Volunteer'].map((item, index) => (
 
                     <li
                         key={index + 1}
@@ -65,8 +68,7 @@ const Navbar = () => {
                             {item}
                         </Link>
                     </li>
-                ))
-            }
+                ))}
 
             {/*Drop down for the Donate Option*/}
             <li
