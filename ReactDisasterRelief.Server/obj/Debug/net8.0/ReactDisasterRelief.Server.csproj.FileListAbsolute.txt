@@ -20,6 +20,7 @@ C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.csproj.CoreCompileInputs.cache
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.sourcelink.json
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\staticwebassets\msbuild.ReactDisasterRelief.Server.Microsoft.AspNetCore.StaticWebAssets.props
@@ -34,4 +35,3 @@ C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.pdb
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.genruntimeconfig.cache
 C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ref\ReactDisasterRelief.Server.dll
-C:\Users\amori\Original\ReactDisasterRelief\ReactDisasterRelief.Server\obj\Debug\net8.0\ReactDisasterRelief.Server.sourcelink.json

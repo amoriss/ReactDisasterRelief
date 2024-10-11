@@ -90,7 +90,7 @@ const Navbar = () => {
                     {dropdownOpen && (
 
                         <div className="dropdown-content"
-                            style={styles.dropdownContent}
+                            style={{ ...styles.dropdownContent, zIndex: 10, }}
                             onMouseEnter={() => setDropdownOpen(true)}
                             onMouseLeave={() => setDropdownOpen(false)}
                         >
@@ -182,12 +182,17 @@ const styles = {
         left: '0',
         width: '100%',
         maxHeight: '200px',
-        overflow: 'hidden',
+        overflow: 'visible', //changed from hidden
+        listStyle: 'none',
+        padding: '15px 0',
 
     },
     navItem: {
-        marginLeft: '20px',
+        /*marginLeft: '20px',*/
         position: 'relative',
+        /*marginBottom: '10px',*/
+        /*margin: '20px 0,'*/
+
     },
     dropdownWrapper: {
         position: 'relative',
@@ -196,7 +201,7 @@ const styles = {
     navLink: {
         color: 'white',
         textDecoration: 'none',
-        padding: '15px 25px',
+        padding: '25px 40px',
         transition: 'background-color 0.3s',
         borderRadius: '15px',
     },
@@ -209,14 +214,16 @@ const styles = {
         position: 'absolute',
         padding: '10px',
         backgroundColor: 'white',
-        zIndex: 1,
+        zIndex: 10,
         minWidth: '160px',
         boxShadow: '0 2px 5px rgba(0,0,0, 0.2)',
         borderRadius: '15px',
-        top: 'calc(100% + 15px)',
+        top: 'calc(100% + 5px)',
         left: '0',
         //opacity: 1,
         transition: 'opacity 0.3s ease',
+        maxHeight: '200px',
+        overflowY: 'auto',
         //visibility: 'visible',
     },
 
@@ -244,17 +251,24 @@ const styles = {
 
     },
     line: {
-        width: '25px',
+        width: '30px',
         height: '3px',
         backgroundColor: 'white',
         margin: '4px 0',
         transition: 'all 0.3s ease',
+
     },
 
     lineOpen: {
         backgroundColor: 'red',
     },
     '@media (max-width: 768px)': {
+        //navbar ul li: {
+        //    display: 'flex',
+        //    flexDirection: 'column',
+
+        //},
+
         navList: {
             display: 'none',
         },
@@ -264,7 +278,8 @@ const styles = {
         navListOpen: {
             display: 'flex',
             flexDirection: 'column',
-        }
+        },
+      
     },
 };
 
