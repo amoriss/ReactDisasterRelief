@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CC1CF48-1A31-4B3B-AFBB-9E4912D7520B}|ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4CC1CF48-1A31-4B3B-AFBB-9E4912D7520B}|ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj|solutionrelative:reactdisasterrelief.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\newslettersignup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\newslettersignup.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\eventcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\eventcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\volunteer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\volunteer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -55,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\volunteer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\volunteer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\src\\components\\boxes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|solutionrelative:reactdisasterrelief.client\\src\\components\\boxes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -69,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4CC1CF48-1A31-4B3B-AFBB-9E4912D7520B}|ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CC1CF48-1A31-4B3B-AFBB-9E4912D7520B}|ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj|solutionrelative:reactdisasterrelief.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4CC1CF48-1A31-4B3B-AFBB-9E4912D7520B}|ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4CC1CF48-1A31-4B3B-AFBB-9E4912D7520B}|ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj|solutionrelative:reactdisasterrelief.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93987B60-E213-472E-823C-6A5F326AF97D}|reactdisasterrelief.client\\reactdisasterrelief.client.esproj|c:\\users\\amori\\original\\reactdisasterrelief\\reactdisasterrelief.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -89,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,31 +105,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Navbar.jsx",
-              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Navbar.jsx",
-              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Navbar.jsx",
-              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Navbar.jsx",
-              "RelativeToolTip": "reactdisasterrelief.client\\src\\components\\Navbar.jsx",
-              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMQAAAAWAAAA",
+              "DocumentIndex": 1,
+              "Title": "NewsletterSignup.jsx",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\NewsletterSignup.jsx",
+              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\NewsletterSignup.jsx",
+              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\NewsletterSignup.jsx*",
+              "RelativeToolTip": "reactdisasterrelief.client\\src\\components\\NewsletterSignup.jsx*",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAxwCQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-06T23:01:10.08Z"
+              "WhenOpened": "2024-10-13T03:53:37.649Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "main.jsx",
-              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\main.jsx",
-              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\main.jsx",
-              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\main.jsx",
-              "RelativeToolTip": "reactdisasterrelief.client\\src\\main.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "EventCard.jsx",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\EventCard.jsx",
+              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\EventCard.jsx",
+              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\EventCard.jsx*",
+              "RelativeToolTip": "reactdisasterrelief.client\\src\\components\\EventCard.jsx*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-06T22:33:16.3Z"
+              "WhenOpened": "2024-10-11T22:02:13.594Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\App.jsx",
@@ -133,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Home.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Home.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Home.jsx",
@@ -146,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Donate.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Donate.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Donate.jsx",
@@ -158,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "useWindowSize.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\hooks\\useWindowSize.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\hooks\\useWindowSize.jsx",
@@ -170,7 +180,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ReactDisasterRelief.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ReactDisasterRelief.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-08T22:48:27.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\main.jsx",
+              "RelativeToolTip": "reactdisasterrelief.client\\src\\main.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-06T22:33:16.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "GetHelp.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\GetHelp.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\GetHelp.jsx",
@@ -182,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Footer.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Footer.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Footer.css",
@@ -195,7 +230,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Volunteer.jsx",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
+              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
+              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
+              "RelativeToolTip": "reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-07T04:53:44.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Navbar.jsx",
+              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Navbar.jsx",
+              "RelativeToolTip": "reactdisasterrelief.client\\src\\components\\Navbar.jsx",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-06T23:01:10.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Home.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Home.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Home.css",
@@ -208,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Navbar.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Navbar.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Navbar.css",
@@ -220,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\index.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\index.css",
@@ -232,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\App.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\App.css",
@@ -244,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Footer.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Footer.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Footer.jsx",
@@ -256,19 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Volunteer.jsx",
-              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
-              "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
-              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
-              "RelativeToolTip": "reactdisasterrelief.client\\src\\components\\Volunteer.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-07T04:53:44.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Boxes.jsx",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Boxes.jsx",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Boxes.jsx",
@@ -280,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Boxes.css",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\src\\components\\Boxes.css",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\src\\components\\Boxes.css",
@@ -292,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\Program.cs",
               "RelativeDocumentMoniker": "ReactDisasterRelief.Server\\Program.cs",
@@ -304,19 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ReactDisasterRelief.Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ReactDisasterRelief.Server\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-08T22:48:27.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\reactdisasterrelief.client\\index.html",
               "RelativeDocumentMoniker": "reactdisasterrelief.client\\index.html",
@@ -328,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "index.d.ts",
               "DocumentMoniker": "C:\\Users\\amori\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Microsoft\\TypeScript\\5.2\\node_modules\\@types\\react\\index.d.ts",
