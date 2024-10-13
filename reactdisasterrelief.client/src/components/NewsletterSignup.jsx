@@ -23,7 +23,7 @@ const NewsletterSignup = () => {
 
         try {
 
-            const response = await axios.post('http:localhost:numbers/api/signup', { email });
+            const response = await axios.post('http:localhost:5173/api/signup', { email });
             if (response.status == 200) {
                 setSuccess('Thank you for signing up for the newsletter!');
                 setEmail('');

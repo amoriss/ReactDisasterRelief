@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReactDisasterRelief.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a253ec4f5d1559f99c2346ada0447e496972782")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3081bc6c30700b909bb624c158d0e7edca9cb05c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReactDisasterRelief.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReactDisasterRelief.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
