@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import getHelpImage from '../assets/truck-disaster-relief.jpg';
 import Boxes from './Boxes.jsx';
-
+import NewsletterSignup from './NewsletterSignup.jsx';
 
 function Home() {
     console.log("Home component rendered");
@@ -29,6 +29,7 @@ function Home() {
                 </div>
             </div>
             <Boxes />
+            <NewsletterSignup/>
         </>
 
     );

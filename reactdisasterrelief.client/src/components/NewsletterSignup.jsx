@@ -44,13 +44,14 @@ const NewsletterSignup = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email"
                     required
-                >
-                </input>
-
+                />
+                <button type="submit">Sign Up</button>
 
 
             </form>
 
         </div>
     )
-}
+};
+
+export default NewsletterSignup;
