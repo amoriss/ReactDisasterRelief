@@ -2,14 +2,15 @@
   "name": "express-server",
   "version": "0.0.0",
   "description": "ExpressServer",
-  "main": "app.js",
+  "main": "index.js",
   "author": "",
   "devDependencies": {
     "eslint": "^8.21.0"
   },
   "eslintConfig": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node index.js"
   },
   "keywords": [],
   "license": "ISC",
