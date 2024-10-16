@@ -12,7 +12,7 @@ const NewsletterSignup = () => {
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefaut();
+        e.preventDefault();
         setError('');
         setSuccess('');
 
@@ -21,15 +21,17 @@ const NewsletterSignup = () => {
             return;
         }
 
+        console.log('Submitting email:', email);
         try {
 
-            const response = await axios.post('http:localhost:5173/api/signup', { email });
-            if (response.status == 200) {
+            const response = await axios.post('http://localhost:3000/api/signup', { email });
+            if (response.status === 200) {
                 setSuccess('Thank you for signing up for the newsletter!');
                 setEmail('');
             }
 
         } catch (e) {
+            console.log(e.message);
             setError(`There was an error signing up: ${e.message}`);
         }
     };
@@ -46,7 +48,7 @@ const NewsletterSignup = () => {
                     required
                 />
                 <button type="submit">Sign Up</button>
-
+                {error && <p style={{ color: 'red'} }>{error}</p> }
 
             </form>
 
