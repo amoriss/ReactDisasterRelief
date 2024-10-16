@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Fy3DC9kjHeQ=",
+  "dgSpecHash": "3Hr7XXhB+2Ay4vaEFt1iFM/qdcNnWnLpKWmt7v/d8lEb7u3khjt1DenAi4A69uoOhSucxMVPgt6dJhOtE24cxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj",
+  "projectFilePath": "/Users/coreysumma1/code/ReactDisasterRelief/ReactDisasterRelief.Server/ReactDisasterRelief.Server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\amori\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
-    "C:\\Users\\amori\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.10\\microsoft.aspnetcore.spaproxy.8.0.10.nupkg.sha512",
-    "C:\\Users\\amori\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\amori\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\amori\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\amori\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\amori\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\amori\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "/Users/coreysumma1/.nuget/packages/microsoft.aspnetcore.openapi/8.0.7/microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
+    "/Users/coreysumma1/.nuget/packages/microsoft.aspnetcore.spaproxy/8.0.10/microsoft.aspnetcore.spaproxy.8.0.10.nupkg.sha512",
+    "/Users/coreysumma1/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/coreysumma1/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/coreysumma1/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/coreysumma1/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/coreysumma1/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/coreysumma1/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
   "logs": []
 }
