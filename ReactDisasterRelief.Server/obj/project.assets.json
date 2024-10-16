@@ -491,27 +491,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amori\\.nuget\\packages\\": {}
+    "/Users/coreysumma1/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj",
+      "projectUniqueName": "/Users/coreysumma1/code/ReactDisasterRelief/ReactDisasterRelief.Server/ReactDisasterRelief.Server.csproj",
       "projectName": "ReactDisasterRelief.Server",
-      "projectPath": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\ReactDisasterRelief.Server.csproj",
-      "packagesPath": "C:\\Users\\amori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amori\\Original\\ReactDisasterRelief\\ReactDisasterRelief.Server\\obj\\",
+      "projectPath": "/Users/coreysumma1/code/ReactDisasterRelief/ReactDisasterRelief.Server/ReactDisasterRelief.Server.csproj",
+      "packagesPath": "/Users/coreysumma1/.nuget/packages/",
+      "outputPath": "/Users/coreysumma1/code/ReactDisasterRelief/ReactDisasterRelief.Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\amori\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/coreysumma1/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -524,11 +521,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -567,7 +559,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
